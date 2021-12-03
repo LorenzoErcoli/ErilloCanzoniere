@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Mono:wght@400;500;700&display=swap');
 
+
 h1{
 	font-family: 'Amatic SC', cursive;
 	font-weight: 700;
@@ -31,7 +32,6 @@ h4{
 	font-weight: 700;
 	font-size: 30px;
 	text-align: center;
-	border-bottom: solid 1px;
 	margin: 0px;
 }
 
@@ -47,6 +47,21 @@ h6{
 	font-size: 25px;
 	font-weight: 500;
 	margin: 0px;
+}
+
+p{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 0px;
+}
+
+span{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+	font-weight: 500;
+	color: var(--red);
+
 }
 
 a{
@@ -117,6 +132,10 @@ img{
 	margin-bottom: 10px;
 	}
 
+.last_block{
+	margin-bottom: 100px
+}
+
 
 .footer{
 	position: fixed;
@@ -125,7 +144,7 @@ img{
 	width: 100vw;
 	height:8vh;
 	text-align: center;
-	margin-top: 80vh; 
+	bottom: 0vh; 
 	border-radius: 50px 50px 0  0;
 	padding-top: 10px;
 
@@ -135,7 +154,7 @@ img{
 
 
 .homepage_text{
-	margin-top: 13vh;
+	margin-top: 5vh;
 	color: var(--white);
 }
 
@@ -151,7 +170,7 @@ img{
 
 
 .home_menu{
-	margin-top: 120px;
+	margin-top: 90px;
 }
 
 .text_home{
@@ -160,9 +179,138 @@ img{
 
 /*ACCORDARIO*/
 
+.title_light{
+	border-bottom: solid 1px;
+	width: 300px;
+	margin: auto
+}
+
 .img_accordi{
 	width: 24% !important;
 }
 
+/*LISTA CANZONI*/
+
+.icon_image{
+	width: 28px;
+	margin-top: 10px;
+	display: inline-block;
+}
 
 
+.song_element{
+	color: var(--dark_blue);
+	border-bottom: solid 1px;
+	border-top: solid 1px;
+	padding: 10px 0;
+	margin: 20px;
+}
+
+.song_text{
+	margin-bottom: 200px; 
+}
+
+.x0{
+	margin-left: 0px
+}
+.x1{
+	margin-left: 10px
+}
+.x2{
+	margin-left: 20px
+}
+.x3{
+	margin-left: 30px
+}
+.x4{
+	margin-left: 40px
+}
+.x5{
+	margin-left: 50px
+}
+.x6{
+	margin-left: 60px
+}
+.x7{
+	margin-left: 70px
+}
+.x8{
+	margin-left: 80px
+}
+.x9{
+	margin-left: 90px
+}
+.x10{
+	margin-left: 100px
+}
+.x11{
+	margin-left: 110px
+}
+.x12{
+	margin-left: 120px
+}
+.x13{
+	margin-left: 130px
+}
+.x14{
+	margin-left: 140px
+}
+.x15{
+	margin-left: 150px
+}
+.x16{
+	margin-left: 160px
+}
+.x17{
+	margin-left: 170px
+}
+.x18{
+	margin-left: 180px
+}
+.x19{
+	margin-left: 190px
+}
+.x20{
+	margin-left: 200px
+}
+.x20{
+	margin-left: 200px
+}
+.x21{
+	margin-left: 210px
+}
+.x22{
+	margin-left: 220px
+}
+.x23{
+	margin-left: 230px
+}
+.x24{
+	margin-left: 240px
+}
+.x25{
+	margin-left: 250px
+}
+.x26{
+	margin-left: 260px
+}
+.x27{
+	margin-left: 270px
+}
+.x28{
+	margin-left: 280px
+}
+.x29{
+	margin-left: 290px
+}
+
+
+.inline_button{
+	background-color: var(--white);
+	display: inline-block;
+	margin: 0 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px
+
+}

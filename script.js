@@ -1,34 +1,35 @@
 console.log("miao")
 
+var body = document.body,
+	    html = document.documentElement;
 
- // var fileNames = new Array();
- //    $.ajax({
- //      url: "/img/accordi/",
- //      success: function(data){
- //         $(data).find("td > a").each(function(){
- //            if(openFile($(this).attr("href"))){
- //                fileNames.push($(this).attr("href"));
- //            }           
- //         });
- //      }
- //    }); 
- //    console.log(fileNames);
- //    function openFile(file) {
- //        var extension = file.substr( (file.lastIndexOf('.') +1) );
- //        switch(extension) {
- //            case 'jpg':
- //            case 'png':
- //            case 'gif':   // the alert ended with pdf instead of gif.
- //            case 'zip':
- //            case 'rar':
- //            case 'pdf':
- //            case 'php':
- //            case 'doc':
- //            case 'docx':
- //            case 'xls':
- //            case 'xlsx':
- //                return true;
- //            default:
- //                return false;
- //        }
- //    };
+var height = Math.max( body.scrollHeight, body.offsetHeight, 
+	                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+
+var scroll = true
+var h = window.innerHeight;
+
+function song_scroll(){
+
+	start_scroll_down()
+
+
+}
+
+function start_scroll_down() { 
+		  $('body,html').animate({scrollTop: (3000)}, 1000*250);
+		  console.log()
+		}
+
+function scrollTop() { 
+  var tempScrollTop = $(window).scrollTop();
+  $('body,html').animate({scrollTop: (tempScrollTop)}, 0);
+  console.log("miao")
+}
+
+var x = document.getElementById("simple_audio");
+
+function playaudio(){
+	x.play()
+}
